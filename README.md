@@ -16,3 +16,10 @@ The equivalent of `Ctrl+H` in VSCode (Find and Replace with control over each oc
 - `g` → Replace all occurrences in each line (not just the first).
 - `c` → Prompt for confirmation before replacing each match.
 
+### shift the selected lines (shift+v) one space to the left without affecting the current indentation structure
+
+```vim
+:s/^ //
+```
+#### Explanation:
+- if you use two spaces after ^ , the lines shifted two spaces to the left
