@@ -43,3 +43,17 @@ To uncomment multiple selected lines in Vim, use:
 ```vim
 :10,20s/^#//
 ```
+
+### How to copy to clipboard and paste
+
+#### copy
+```vim
+go to visual mode
+"+yy
+```
+
+#### paste
+```vim
+go to visual mode
+"+p
+```
